@@ -1,6 +1,6 @@
 <?php
 
-    $connection=mysqli_connect("localhost","root","","vehicle management");
+    $connection=mysqli_connect("localhost","root","","vehicle_management");
 
     session_start();
     

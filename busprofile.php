@@ -1,9 +1,9 @@
 <?php
-    $connection= mysqli_connect("localhost","root","","vehicle management");
+    $connection= mysqli_connect("localhost","root","","vehicle_management");
     
     session_start();
 
-    $veh_id= $_GET['busid']; 
+    $veh_id= $_GET['bus id']; 
 
     $sql= "SELECT * FROM `vehicle` WHERE veh_id='$veh_id' or veh_reg='$veh_id'"; 
     //echo $sql;

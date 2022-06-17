@@ -30,7 +30,7 @@
     
 .parallax {
     /* The image used */
-    background-image: url("bus-people-public-transportation-34171.png");
+    background-image: url("pexels-photo-280310 .jpg");
     height: 100%;
 
     /* Set a specific height */
@@ -46,7 +46,7 @@
     
 .parallax1 {
     /* The image used */
-    background-image: url("pexels-photo-280310 .jpeg");
+    background-image: url("pexels-photo-280310 1 .jpeg");
     height: 100%;
 
     /* Set a specific height */
@@ -83,10 +83,10 @@
             <p>A management system where you can easily manage vehicles</p>
             
             <?php if(isset($_SESSION['username'])==true) { ?>
-            <a class="btn btn-success" style="text-align: center" href="booking.php">Book a Vehicle</a>
+            <a class="btn btn-success" style="text-align: center" href="booking.php">Book a Ticket</a>
             
             <?php } else{  ?>
-            <a class="btn btn-success" style="text-align: center" href="login.php">Login To Book A Vehicle</a> 
+            <a class="btn btn-success" style="text-align: center" href="login.php">Login To Book A Ticket</a> 
             <?php } ?>
             
           </div>

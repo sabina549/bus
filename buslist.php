@@ -1,5 +1,5 @@
 <?php
-    $connection= mysqli_connect("localhost","root","","vehicle management");
+    $connection= mysqli_connect("localhost","root","","vehicle_management");
 
     session_start();
 
@@ -35,7 +35,7 @@
              <div class="col-md-3"></div>
              <div class="col-md-6 foo">
                  <div class="page-header">
-                    <h1 class="animated bounceIn" style="text-align: center;">Vehicle List</h1>      
+                    <h1 class="animated bounceIn" style="text-align: center;"> Bus List</h1>      
                   </div> 
                   <table class="table">
                     <thead>
